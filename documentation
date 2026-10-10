@@ -1,0 +1,78 @@
+TITLE        :ARBITRARY PRECISION CALCULATOR
+NAME         :VISMAYA P P
+Date.        :10/05/2026
+ROLL NUMBER  :25044_041
+
+DESCRIPTION: Arbitrary Precision Calculator (APC) is C-based application developed 
+using Doubly Linked Lists to perform arithmetic operations on integers of any size 
+without being limited by built-in data type constraints. The project supports addition,
+subtraction, multiplication, and division for very large numbers, including negative 
+operands. Each digit of a number is stored in a separate node of the doubly linked list, 
+allowing efficient digit-by-digit processing similar to manual arithmetic calculations. 
+The calculator also performs input validation, sign handling, comparison operations, 
+and formatted result display. This project demonstrates concepts such as dynamic memory 
+allocation, linked list manipulation, modular programming, and arbitrary precision 
+arithmetic implementation in C.
+
+
+
+Sample input 1:
+ ./a.out 1200 + 3000
+output :
+INFO: Validation successful
+====================================================
+         ARBITRARY PRECISION CALCULATOR
+====================================================
+Operation -> 1200 + 3000
+Result -> 4200
+
+Sample input 2:
+./a.out 1200 + -3000 
+output :
+INFO: Validation successful
+====================================================
+         ARBITRARY PRECISION CALCULATOR
+====================================================
+Operation -> 1200 + -3000
+Result -> -1800
+
+
+Sample input 3: 
+  ./a.out 1150 - 4078 
+output :
+INFO: Validation successful
+====================================================
+         ARBITRARY PRECISION CALCULATOR
+====================================================
+Operation -> 1150 - 4078
+Result -> -2928
+
+Sample input 4: 
+  ./a.out 1200 x 3780
+output :   
+INFO: Validation successful
+====================================================
+         ARBITRARY PRECISION CALCULATOR
+====================================================
+Operation -> 1200 x 3780
+Result -> 4536000
+
+Sample input 5:
+ ./a.out 2500 / 25
+output : 
+INFO: Validation successful
+====================================================
+         ARBITRARY PRECISION CALCULATOR
+====================================================
+Operation -> 2500 / 25
+Result -> 100
+
+Sample input 6:
+  ./a.out 2500 x -2700
+output :  
+INFO: Validation successful
+====================================================
+         ARBITRARY PRECISION CALCULATOR
+====================================================
+Operation -> 2500 x -2700
+Result -> -6750000
